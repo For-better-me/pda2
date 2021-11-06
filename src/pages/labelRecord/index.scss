@@ -1,0 +1,117 @@
+.label {
+    padding-bottom: 2.2rem;
+    h2 {
+        font-size: 0.8rem;
+        margin-top: 0.8rem;
+        color: #fff;
+    }
+}
+
+.label_list {
+    ul {
+        margin-top: 0.8rem;
+    }
+    .label_item {
+        background: #00385C;
+        border-radius: 0.24rem;
+        padding: 0 0.3rem;
+        padding-bottom: 0.6rem;
+        margin-bottom: 0.4rem;
+        .title {
+            padding: 0.35rem 0;
+            border-bottom: 0.01rem solid #1A4C6C;
+            .label_status {
+                width: 0.69rem;
+                height: 0.36rem;
+                border-radius: 0.04rem;
+                font-size: 0.24rem;
+                text-align: center;
+                line-height: 0.32rem;
+                font-weight: 400;
+                &.on {
+                    border: #0AC159 solid 0.02rem;
+                    color: #0AC159;
+                }
+                &.off {
+                    background: #67869A;
+                    border: #67869A solid 0.02rem;
+                    color: #D8D8D8;
+                }
+            }
+        }
+        .flex {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 0.35rem;
+            p {
+                width: 4.8em;
+                flex-shrink: 0;
+            }
+        }
+        .flag_wrap {
+            margin-top: 0.4rem;
+            p {
+                display: inline-block;
+                vertical-align: top;
+                padding: 0.06rem 0.33rem;
+                border-radius: 0.6rem;
+                font-size: 0.4rem;
+                color: #fff;
+                background: #3777A0;
+                margin-right: 0.2rem;
+                margin-top: 0.2rem;
+                &:nth-of-type(3n) {
+                    margin-right: 0;
+                }
+                &.red {
+                    background: #FF4842;
+                }
+            }
+        }
+    }
+}
+
+.btn_s {
+    width: 2rem;
+    height: 1.4rem;
+    background: #0AC159;
+    border-radius: 0.32rem;
+    font-size: 0.6rem;
+    color: #000;
+    flex-shrink: 0;
+}
+
+.btn_m {
+    width: 3rem;
+    height: 1.4rem;
+    background: #0AC159;
+    border-radius: 0.32rem;
+    font-size: 0.6rem;
+    color: #000;
+    flex-shrink: 0;
+}
+
+.input_bottom {
+    font-size: 0.6rem;
+    color: #0AC159;
+    line-height: 1.4rem;
+    width: 4rem;
+    background: transparent;
+}
+
+.label_info {
+    .code_img {
+        width: 1.4rem;
+        height: 1.4rem;
+        flex-shrink: 0;
+        background-color: white;
+    }
+    .status {
+        width: 3.05rem;
+        height: 2rem;
+        background: #00385C;
+        border-radius: 0.24rem;
+        padding: 0.3rem;
+        margin-top: 0.6rem;
+    }
+}
