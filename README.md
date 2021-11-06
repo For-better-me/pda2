@@ -1,3 +1,5 @@
+src/utils/index.js里面有两个方法，一个是发起扫码的，然后把扫码的结果传给success这个回调函数里，还有一个是获取重量的，可以把逻辑集中写道这，页面上我直接调这两个方法
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
